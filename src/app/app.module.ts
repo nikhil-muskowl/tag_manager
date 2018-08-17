@@ -10,7 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
+import {IonTagsInputModule} from "ionic-tags-input";
 @NgModule({
   declarations: [
     MyApp,
@@ -20,6 +20,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage
   ],
   imports: [
+    IonTagsInputModule,
     BrowserModule,
     IonicModule.forRoot(MyApp)
   ],
